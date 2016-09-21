@@ -1,5 +1,5 @@
 #include "FastLED.h"
-#define NUM_LEDS 30
+#define NUM_LEDS 60
 #define DELAY 500
 CRGB leds[NUM_LEDS];
 void setup() { FastLED.addLeds<NEOPIXEL, 6>(leds, NUM_LEDS); }
